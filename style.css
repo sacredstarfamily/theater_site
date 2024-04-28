@@ -57,15 +57,13 @@ nav ul li a {
     background-color: lightgrey;
 }
 .grid-container {
-    background-color: white;
+    min-height: 100vh;
     display: grid;
-    
-    gap: 0px 0px;
-    padding: 10px;
-    margin-bottom: 150px;
+    row-gap: 3vh;
 }
 .movie {
     display: flex;
+    grid-area: movie;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
